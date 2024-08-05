@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-color: #1E5DDB;
+}
+
+.logo {
+    width: 60px;
+}
+
+.logo-sony {
+    width: 120px;
+}
+
+header {
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #182580;
+    padding: 5px 3%;
+
+}
+
+#right {
+    display: flex;
+    gap: 50px;
+    font-size: 25px;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80vh;
+    padding: 80px;
+    gap: 20px;
+   
+
+}
+
+.img-console {
+    width: 100%
+}
+
+.img {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ps-two {
+    width: 70%;
+}
+
+.PS3 {
+    width: 100%;
+}
+
+.PS4 {
+    width: 80%;
+}
+
+.PS5 {
+    width: 100%;
+}
+
+.text {
+    width: 36vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 300;
+
+}
+
+p {
+    font-size: 20px;
+    font-weight: 300;
+    text-align: left;
+}
