@@ -7,7 +7,6 @@
 
 body {
     height: 100vh;
-    background-color: #1E5DDB;
 }
 
 .logo {
@@ -41,7 +40,7 @@ section {
     height: 80vh;
     padding: 80px;
     gap: 20px;
-   
+
 
 }
 
@@ -78,7 +77,7 @@ section {
     height: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: column;
     gap: 10px;
 }
@@ -93,4 +92,12 @@ p {
     font-size: 20px;
     font-weight: 300;
     text-align: left;
+}
+
+button {
+    border: none;
+    border-radius: 10px;
+    background-color: #1E5DDB;
+    width: 100px;
+    padding: 6px;
 }
