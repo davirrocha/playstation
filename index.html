@@ -16,68 +16,83 @@
 
 <body>
     <header>
-        <div id="left">
-            <img src="./assets/playstation.svg" alt="logo-ps" class="logo">
+        <div>
+            <a href=""><img src="./assets/playstation.svg" alt="logo-ps" class="logo-ps"></a>
         </div>
-        <div id="right">
+        <div>
             <img src="./assets/sony-logo-1.svg" alt="" class="logo-sony">
         </div>
     </header>
     <main>
 
         <section>
-            <div class="text">
-                <h1>Playstaion 1</h1>
-                <p>O PlayStation 1, lançado em 1994, revolucionou a indústria dos videogames e marcou o início da
-                    dominação da Sony nesse mercado.</p>
-                <button>SAIBA MAIS</button>
+            <div class="list">
+
+                <div class="item active ">
+                    <div class="div-img"><img src="./assets/PsOne.png" alt="" class="img-console ps1"></div>
+
+                    <div class="div-text">
+                        <h1><span>Playstation 1:</span> Um marco na história dos videogames</h1>
+                        <a href="./psONE/index.html"><button>SAIBA MAIS</button></a>
+                    </div>
+                </div>
+
+                <div class="item ">
+                    <div class="div-img"><img src="./assets/ps2.png" alt="" class="img-console ps2"></div>
+                    <div class="div-text">
+                        <h1><span>Playstation 2:</span> O rei indiscutível dos videogames</h1>
+                        <a href=".//ps2/index.html"><button>SAIBA MAIS</button></a>
+                    </div>
+                </div>
+
+                <div class="item ">
+                    <div class="div-img"><img src="./assets/ps3.png" alt="" class="img-console"></div>
+                    <div class="div-text">
+                        <h1><span>Playstation 3:</span> Uma nova era de jogos e entretenimento</h1>
+                        <a href="./ps3/index.html"><button>SAIBA MAIS</button></a>
+                    </div>
+                </div>
+
+                <div class="item ">
+                    <div class="div-img"><img src="./assets/ps4.png" alt="" class="img-console"></div>
+                    <div class="div-text">
+                        <h1><span>Playstation 4:</span> O auge da geração</h1>
+
+                        <a href="./ps4/index.html"><button>SAIBA MAIS</button></a>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="div-img"><img src="./assets/ps5.webp" alt="" class="img-console"></div>
+                    <div class="div-text">
+                        <h1><span>Playstation 5:</span> A nova geração de jogos</h1>
+
+                        <a href="./ps5/index.html"><button>SAIBA MAIS</button></a>
+                    </div>
+                </div>
+
             </div>
-            <div class="img"><img src="./assets/PsOne.png" alt="" class="img-console"></div>
-        </section>
-        <section>
-            <div class="text">
-                <h1>Playstaion 2</h1>
-                <p>O PlayStation 2, lançado em 2000, superou todas as expectativas e se tornou o console de videogame
-                    mais vendido de todos os tempos, com mais de 155 milhões de unidades vendidas.</p>
+
+            <div class="arrows">
+                <button class="left"><img src="./assets/seta.png" alt="" class="seta esquerda"></button>
+                <button class="right"><img src="./assets/seta.png" alt="" class="seta direita"></button>
             </div>
-            <div class="img">
-                <img src="./assets/ps2.png" alt="" class="ps-two">
+
+            <div class="indicator">
+                <div class="number">01</div>
+                <ul>
+                    <li class="active"></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
             </div>
-        </section>
-        <section>
-            <div class="text">
-                <h1>Playstaion 3</h1>
-                <p>O PlayStation 3, lançado em 2006, marcou uma nova era na indústria dos videogames, introduzindo
-                    tecnologias de ponta e expandindo os limites do entretenimento doméstico.</p>
-            </div>
-            <div class="img">
-                <img src="./assets/ps3.png" alt="" class="PS3">
-            </div>
-        </section>
-        <section>
-            <div class="text">
-                <h1>Playstaion 4</h1>
-                <p>O PlayStation 4, lançado em 2013, se consolidou como um dos consoles mais populares e bem-sucedidos
-                    de todos os tempos. Ele aprimorou os conceitos introduzidos pelo PS3 e ofereceu uma experiência de
-                    jogo ainda mais rica e envolvente.</p>
-            </div>
-            <div class="img">
-                <img src="./assets/ps4.png" alt="" class="PS4">
-            </div>
-        </section>
-        <section>
-            <div class="text">
-                <h1>Playstaion 5</h1>
-                <p>O PlayStation 5, lançado em 2020, representa um salto significativo em termos de tecnologia e
-                    experiência de jogo, oferecendo gráficos impressionantes, tempos de carregamento quase instantâneos
-                    e recursos inovadores.</p>
-            </div>
-            <div class="img">
-                <img src="./assets/ps5.webp" alt="" class="PS5">
-            </div>
+
         </section>
 
     </main>
 </body>
+<script src="./scripts.js"></script>
 
 </html>
