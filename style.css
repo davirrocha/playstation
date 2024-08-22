@@ -15,7 +15,6 @@ h1 {
     font-weight: 300;
     text-align: right;
 
-
     span {
         font-weight: 400;
     }
@@ -44,13 +43,11 @@ section {
     position: relative;
     overflow: hidden;
 
-
     .list {
         width: 70vw;
         height: 100%;
         margin: auto;
         position: relative;
-
 
         .item {
             position: absolute;
@@ -83,7 +80,6 @@ section {
     width: 70%;
 }
 
-
 .ps2 {
     width: 45%;
 }
@@ -107,8 +103,6 @@ button:hover {
     position: absolute;
     top: 80%;
     left: 5%;
-
-
 
     .number {
         font-size: 4em;
@@ -157,8 +151,6 @@ button:hover {
             width: 100%;
         }
     }
-
-
 }
 
 section {
@@ -223,13 +215,10 @@ section {
             .item {
                 .div-img {
                     position: absolute;
-                    top: 50%;
+                    top: 35%;
                     left: 12%;
                     transform: translateY(-50%);
                     width: 80%;
-
-
-
                 }
             }
         }
@@ -243,12 +232,9 @@ section {
         width: 65%;
     }
 
-
-
-
     .div-text {
         position: absolute;
-        top: 22%;
+        top: 10%;
         width: 100%;
         height: 100%;
         display: flex;
@@ -263,21 +249,21 @@ section {
         font-size: 30px;
         font-weight: 300;
         text-align: start;
-
-
     }
 
     button {
         background-color: #0070D1;
     }
 
+    .arrows {
+        top: 35%;
+    }
+
     .indicator {
-        top: 86%;
+        top: 75%;
 
         .number {
             font-size: 3em;
         }
     }
-
-
 }
