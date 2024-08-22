@@ -128,3 +128,24 @@ footer {
     padding: 5px 3%;
     color: #fff;
 }
+
+
+@media screen and (max-width: 600px) {
+    #container-top {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .div-text{
+        width: 100%;
+        gap: 25px;
+
+        p{
+            font-size: 23px;
+        }
+    }
+
+    .div-img{
+    width: 100%;
+    }
+}

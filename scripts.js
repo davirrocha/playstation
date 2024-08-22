@@ -1,6 +1,6 @@
 let prevBtn = document.getElementById("prev")
 let nextBtn = document.getElementById("next")
-let container = document.querySelector(".container")
+let container = document.querySelector("#container")
 let items = document.querySelectorAll(".list .item")
 let indicator = document.querySelector(".indicator")
 let dots = indicator.querySelectorAll("ul li")
