@@ -3,6 +3,19 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
+
+    &::-webkit-scrollbar {
+        width: 9px;
+        height: 9px;
+    }
+
+    &::-webkit-scrollbar-track {
+        background: transparent;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background-color: #0070D1;
+    }
 }
 
 body {
@@ -136,16 +149,16 @@ footer {
         flex-direction: column;
     }
 
-    .div-text{
+    .div-text {
         width: 100%;
         gap: 25px;
 
-        p{
+        p {
             font-size: 23px;
         }
     }
 
-    .div-img{
-    width: 100%;
+    .div-img {
+        width: 100%;
     }
 }
