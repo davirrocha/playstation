@@ -1,6 +1,6 @@
 # PlayStation - Linha do Tempo
 ![Design da pagina](./assets/design-page.png)
-Este projeto apresenta uma linha do tempo interativa sobre a evolução dos consoles PlayStation, desde o PlayStation 1 até o PlayStation 5. O objetivo é proporcionar uma experiência visual e informativa sobre cada console, destacando seus marcos históricos e características.
+Este projeto apresenta uma linha do tempo interativa sobre a evolução dos consoles PlayStation, desde o PlayStation 1 até o PlayStation 5. O objetivo é proporcionar uma experiência visual e informativa sobre cada console, destacando seus marcos históricos e características. **[Link do projeto](https://davirrocha.github.io/playstation/)**
 
 ## Tecnologias Utilizadas
 
